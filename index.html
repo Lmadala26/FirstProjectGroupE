@@ -6,18 +6,44 @@
     <link rel="stylesheet" href="styles.css" />
     <title>Easy Drums</title>
   </head>
-  <header>
-    <h1>/*Aca va imagen de titulo*/</h1>
-    <menu>
-      <a href=""><button id="menu">Menu</button></a>
-      <a href=""></a><button id="tutorial">Tutorial</button></a>
-      <a href=""></a><button id="contact">Contacto</button></a>
-    </menu>
-    <section>
-      <a href=""><button>Login/Sing in</button></a>
-    </section>
-  </header>
   <body>
+    <header>
+      <!-- menu desplegable-->
+      <div class="hero">
+        <nav id="parteDeArriba">
+          <img src="img/Linea.png" class="Lineas" onclick="toggleMenu()">
+          <img src="img/Easy drums (2).png" class="Logo">
+      
+          <div class="sub-menu-wrap" id="subMenu">
+            <div class="sub-menu">
+              <div class="display">
+                <h2>Donde vamos rey</h2>
+              </div>
+              <hr>
+      
+              <a href="#" class="sub-menu-link">
+                <img src="img/drum.png">
+                <p>Drums</p>
+                <span>></span>
+              </a>
+      
+              <a href="#" class="sub-menu-link">
+                <img src="img/Community.png">
+                <p>Comunidad</p>
+                <span>></span>
+              </a>
+      
+              <a href="#" class="sub-menu-link">
+                <img src="img/support.png">
+                <p>Contacto</p>
+                <span>></span>
+              </a>
+            </div>
+      
+          </div>
+        </nav>
+      </div>
+    </header>
     <main>
       <ul id="drum">
         <li id="crash">
@@ -58,5 +84,6 @@
     <footer>
       /*Aca podemos poner foto de los 3 con breve descripcion, como creadores de la pagina y alguna otra info*/
     </footer>
+    <script src="/script.js"></script>
   </body>
 </html>
