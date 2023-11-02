@@ -202,9 +202,24 @@ nav ul li a {
   padding: 10px 20px;
   cursor: pointer;
   margin: 0 10px;
+  border-radius: 25%;
+  font-size: 18px;
 }
 
 .botonesFondo:hover {
   background-color: #28a2ff;
 }
 /* ====================================================================  */
+/*Style Shortcuts*/
+
+.shortcutsButtons {
+  background-color: #28a2ff;
+  display: block;
+  position: absolute;
+  width: 30px;
+  border-radius: 50%;
+  font-size: 20px;
+}
+
+/* ====================================================================  */
+/*Style Recorder*/
