@@ -1,7 +1,14 @@
+@font-face {
+  font-family: Anton-Regular;
+
+  src: url("Fuentes/Anton-Regular.ttf");
+}
+
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Anton-Regular;
 }
 /* =====HEADER==================================== */
 /* .hero {
@@ -12,116 +19,192 @@
 } */
 
 #parteDeArriba {
-    background: linear-gradient(to bottom, #D3CDD7 65%, #69626D);
-    width: 100%;
-    padding: 10px 10%;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    position: relative;
+  background: linear-gradient(to bottom, #c7ccdb, #767b91);
+  width: 100%;
+  padding: 10px 10%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: relative;
 }
 
 .Logo {
-    max-width: 100%;
-    border-radius: 50%;
-    cursor: pointer;
-    overflow: hidden;
+  width: 120px;
+  /* max-width: 100%; */
+  /* border-radius: 50%; */
+  cursor: pointer;
+  overflow: hidden;
 }
 
 .Lineas {
-    width: 50px;
-    border-radius: 50%;
-    cursor: pointer;
-    margin-right: 40px;
+  width: 50px;
+  /* border-radius: 50%; */
+  cursor: pointer;
+  margin-right: 40px;
 }
 
 nav ul {
-    width: 100%;
-    text-align: left;
+  width: 100%;
+  text-align: left;
 }
 
 nav ul li {
-    display: inline-block;
-    list-style: none;
-    margin: 10px 20px;
+  display: inline-block;
+  list-style: none;
+  margin: 10px 20px;
 }
 
 nav ul li a {
-    color: black;
-    text-decoration: none;
+  color: black;
+  text-decoration: none;
 }
 
 .sub-menu-wrap {
-    position: absolute;
-    top: 100%;
-    width: 320px;
-    max-height: 0px;
-    overflow: hidden;
-    transition: max-height 0.5s;
+  position: absolute;
+  top: 100%;
+  width: 320px;
+  max-height: 0px;
+  overflow: hidden;
+  transition: max-height 0.5s;
 }
 
 .sub-menu-wrap.open-menu {
-    max-height: 400px;
+  max-height: 400px;
 }
 
 .sub-menu {
-    background: linear-gradient(to bottom, #69626D, white);
-    padding: 20px;
-    margin: 10px;
+  background: linear-gradient(to bottom, #c7ccdb, #767b91);
+  padding: 20px;
+  margin: 10px;
 }
 
 .display {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .display h3 {
-    font-weight: 500;
+  font-weight: 500;
 }
 
 .sub-menu hr {
-    border: 0;
-    height: 1px;
-    width: 100%;
-    background: #ccc;
-    margin: 15px 0 10px;
+  border: 0;
+  height: 1px;
+  width: 100%;
+  background: #ccc;
+  margin: 15px 0 10px;
 }
 
 .sub-menu-link {
-    display: flex;
-    align-items: center;
-    text-decoration: none;
-    color: black;
-
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: black;
 }
 
 .sub-menu-link p {
-    width: 100%;
-    padding: 12px;
+  width: 100%;
+  padding: 12px;
 }
 
 .sub-menu-link img {
-    width: 40 px;
-    border-radius: 50%;
-    padding: 8px;
-    margin-right: 5px;
+  width: 40 px;
+  border-radius: 50%;
+  padding: 8px;
+  margin-right: 5px;
 }
 
 .sub-menu-link:hover img {
-    transition: transform 0.5s;
-    transform: translateX(5px);
+  transition: transform 0.5s;
+  transform: translateX(5px);
 }
 
 .sub-menu-link span {
-    font-size: 22px;
-    transition: transform 0.5s;
+  font-size: 22px;
+  transition: transform 0.5s;
 }
 
 .sub-menu-link:hover span {
-    transform: translateX(5px);
+  transform: translateX(5px);
 }
 
 .sub-menu-link:hover p {
-    font-weight: 600;
+  font-weight: 600;
 }
+
+.right-menu {
+  /* margin-right: 20px; */
+  display: flex;
+  justify-content: center;
+  color: #fff;
+}
+
+.icon-link {
+  color: #2a324b;
+  text-decoration: none;
+  /* margin-left: 5px; */
+  /* margin-right: 5px; */
+}
+
+.separador {
+  color: #2a324b;
+  margin-left: 5px;
+  margin-right: 5px;
+}
+
 /* ======================================================================== */
+
+/* CSS PARA EL FONDO, CAMBIO DE IMAGENES Y HOVER DE ALGUNOS BOTONES */
+
+.centrar {
+  min-height: 88vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-image: url("img/pexels-furkan-aydi̇lek-17905270.jpg");
+  background-position-y: -320px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+/* tamaño de los botones y su hover */
+.center {
+  width: 150px;
+  height: 100px;
+  font-size: xx-large;
+  background-color: #2a324b;
+  color: #fff;
+}
+
+.center:hover {
+  border-color: #28a2ff;
+  border-width: 2px;
+  box-shadow: -1px 1px 16px 2px rgb(41, 162, 255, 0.3);
+  -webkit-box-shadow: -1px 1px 16px 2px rgb(41, 162, 255, 0.3);
+  -moz-box-shadow: -1px 1px 16px 2px rgb(41, 162, 255, 0.3);
+}
+
+.red-button {
+  background-color: #28a2ff;
+}
+/* tamaño y hover de los botones para cambiar imagen de fondo */
+#button-container {
+  position: absolute;
+  bottom: 20px;
+  width: 100%;
+  text-align: center;
+}
+
+.botonesFondo {
+  background-color: #2a324b;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin: 0 10px;
+}
+
+.botonesFondo:hover {
+  background-color: #28a2ff;
+}
+/* ====================================================================  */
