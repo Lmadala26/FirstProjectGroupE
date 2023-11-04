@@ -54,68 +54,67 @@
     </header>
     <main class="centrar" id="fondito">
       <div>
-        <audio id="audio1" src="wav/crash.wav"></audio>
-        <audio id="audio2" src="wav/hihat-close.wav"></audio>
-        <audio id="audio3" src="wav/hihat-open.wav"></audio>
-        <audio id="audio4" src="wav/kick.wav"></audio>
-        <audio id="audio5" src="wav/ride.wav"></audio>
-        <audio id="audio6" src="wav/snare.wav"></audio>
-        <audio id="audio7" src="wav/tom-high.wav"></audio>
-        <audio id="audio8" src="wav/tom-low.wav"></audio>
-        <audio id="audio9" src="wav/tom-mid.wav"></audio>
+        <audio id="audioCrash" src="wav/crash.wav"></audio>
+        <audio id="audioHihat-close" src="wav/hihat-close.wav"></audio>
+        <audio id="audioHihat-open" src="wav/hihat-open.wav"></audio>
+        <audio id="audioKick" src="wav/kick.wav"></audio>
+        <audio id="audioRide" src="wav/ride.wav"></audio>
+        <audio id="audioSnare" src="wav/snare.wav"></audio>
+        <audio id="audioTom-high" src="wav/tom-high.wav"></audio>
+        <audio id="audioTom-low" src="wav/tom-low.wav"></audio>
+        <audio id="audioTom-mid" src="wav/tom-mid.wav"></audio>
       </div>
       <div class="flex">
         <div>
-          <button class="center" id="boton1" onclick="play1()">Tecla 7</button>
-          <button class="center" id="boton2" onclick="play2()">Tecla 8</button>
-          <button class="center" id="boton3" onclick="play3()">Tecla 9</button>
-          <button class="center" id="boton4" onclick="play4()">Tecla 4</button>
-          <button class="center" id="boton5" onclick="play5()">Tecla 5</button>
-          <button class="center" id="boton6" onclick="play6()">Tecla 6</button>
-          <button class="center" id="boton7" onclick="play7()">Tecla 1</button>
-          <button class="center" id="boton8" onclick="play8()">Tecla 2</button>
-          <button class="center" id="boton9" onclick="play9()">Tecla 3</button>
+          <button class="center" id="botonCrash" onclick="play1()">
+             Crash
+          <span class="shortcutsButtons">E</span>
+          </button>
+          <button class="center" id="botonHihat-close" onclick="play2()">
+            Hihat Close
+          <span class="shortcutsButtons">W</span>
+          </button>
+          <button class="center" id="botonHihat-open" onclick="play3()">
+            Hihat Open
+            <span class="shortcutsButtons">Q</span>
+          </button>
+          <button class="center" id="botonKick" onclick="play4()">
+            Kick
+            <span class="shortcutsButtons">A</span>
+          </button>
+          <button class="center" id="botonRide" onclick="play5()">
+            Ride
+            <span class="shortcutsButtons">S</span>
+          </button>
+          <button class="center" id="botonSnare" onclick="play6()">
+            Snare
+            <span class="shortcutsButtons">D</span>
+          </button>
+          <button class="center" id="botonTom-high" onclick="play7()">
+            Tom High
+            <span class="shortcutsButtons">T</span>
+          </button>
+          <button class="center" id="botonTom-low" onclick="play8()">
+            Tom Low
+            <span class="shortcutsButtons">F</span>
+          </button>
+          <button class="center" id="botonTom-mid" onclick="play9()">
+            Tom Mid
+            <span class="shortcutsButtons">R</span>
+          </button>
         </div>
-      </div>
-      <ul id="drum">
-        <li id="crash">
-          <img src="" alt="" />
-        </li>
-        <li id="hihat-open">
-          <img src="" alt="" />
-        </li>
-        <li id="hihat-close">
-          <img src="" alt="" />
-        </li>
-        <li id="kick">
-          <img src="" alt="" />
-        </li>
-        <li id="ride">
-          <img src="" alt="" />
-        </li>
-        <li id="snare">
-          <img src="" alt="" />
-        </li>
-        <li id="tom-high">
-          <img src="" alt="" />
-        </li>
-        <li id="tom-mid">
-          <img src="" alt="" />
-        </li>
-        <li id="tom-low">
-          <img src="" alt="" />
-        </li>
-      </ul>
       <section id="recorder">
-        <button id="record"></button>
-        <button id="play"></button>
-        <button id="pause"></button>
-        <button id="stop"></button>
+      <button id="startRecord"></button>
+      <button id="stopRecord" disabled></button>
+      <button id="playAudio" disabled></button>
+      <button id="pauseAudio" disabled></button>
+      <button id="stopAudio" disabled></button>
+      <audio id="audioPlayer" controls></audio>
       </section>
     </main>
     <div id="button-container">
       <button class="botonesFondo" id="prev-button"><</button>
-      <button>Pa los atajos del teclado</button>
+      <button class="botonesFondo" id="shortcuts">Shortcuts</button>
       <button class="botonesFondo" id="next-button">></button>
     </div>
     <footer>
@@ -125,5 +124,7 @@
     <script src="/script.js"></script>
     <script src="/fondoCambio.js"></script>
     <script src="/LinkSonidosTeclasClick.js"></script>
-  </body>
+    <script src="/recorder.js"></script>
+    <script src="/shortcuts.js"></script>
+    </body>
 </html>
