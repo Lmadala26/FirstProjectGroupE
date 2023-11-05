@@ -214,11 +214,11 @@ function playSound(event) {
       audio9.currentTime = 0;
       setTimeout(() => {
         audio9.play();
-        document.getElementById("botonTom-mid").classList.add("red-button");
+        document.getElementById("botonTom-mid").classList.add("claseNueva");
         setTimeout(() => {
           document
             .getElementById("botonTom-mid")
-            .classList.remove("red-button");
+            .classList.remove("claseNueva");
         }, 200);
       }, 140);
       break;
