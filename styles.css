@@ -169,24 +169,23 @@ nav ul li a {
 }
 /* tamaño de los botones y su hover */
 .center {
-  width: 150px;
-  height: 100px;
-  font-size: xx-large;
-  background-color: #2a324b;
-  color: #fff;
+  border-style: none;
+    width: 150px;
+    height: 100px;
+    font-size: xx-large;
+    background-color: transparent;
+    color: #fff;
 }
 
-.center:hover {
+/* .center:hover {
   border-color: #28a2ff;
   border-width: 2px;
   box-shadow: -1px 1px 16px 2px rgb(41, 162, 255, 0.3);
   -webkit-box-shadow: -1px 1px 16px 2px rgb(41, 162, 255, 0.3);
   -moz-box-shadow: -1px 1px 16px 2px rgb(41, 162, 255, 0.3);
-}
+} */
 
-.red-button {
-  background-color: #28a2ff;
-}
+
 /* tamaño y hover de los botones para cambiar imagen de fondo */
 #button-container {
   position: absolute;
@@ -293,7 +292,206 @@ nav ul li a {
 }
 
 /* ====================================================================  */
+#botonCrash {
+  background-image: url(/img/Bateria/plato.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  margin: 30px;
+  width: 200px;
+  height: 50px;
+  grid-column-start: 2;
+  grid-column-end: 3;
+  grid-row-start: 1;
+  grid-row-end: 1;
+}
 
+#botonCrash:hover {
+  background-image: url(/img/Bateria/plato\ color.png);
+  transform: scale(1.03);
+}
+
+
+
+
+#botonHihat-close {
+  background-image: url(/img/Bateria/plato.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  margin: 30px 30px 0px 0px;
+  width: 200px;
+  height: 50px;
+  grid-column-start: 7;
+  grid-column-end: 8;
+  grid-row-end: 2;
+  grid-row-start: 2;
+}
+
+#botonHihat-close:hover {
+  background-image: url(/img/Bateria/plato\ color.png);
+  transform: scale(1.03);
+}
+
+
+
+
+
+
+#botonHihat-open {
+  background-image: url(/img/Bateria/plato.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  margin: 30px 30px 0px 0px;
+  width: 200px;
+  height: 50px;
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-end: 2;
+  grid-row-start: 2;
+}
+
+#botonHihat-open:hover {
+  background-image: url(/img/Bateria/plato\ color.png);
+  transform: scale(1.03);
+}
+
+
+
+
+
+#botonKick {
+  background-image: url(/img/Bateria/bateria\ 0.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 200px;
+  height: 200px;
+  grid-column-start: 4;
+  grid-column-end: 5;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+
+#botonKick:hover {
+  background-image: url(/img/Bateria/bateria\ 0\ color.png);
+  transform: scale(1.03);
+}
+.claseNueva{
+    background-image: url(/img/Bateria/bateria\ 2\ color.png);
+      transform: scale(1.03);
+}
+
+
+
+
+
+#botonRide {
+  background-image: url(/img/Bateria/plato.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  margin: 30px;
+  width: 200px;
+  height: 50px;
+  grid-column-start: 6;
+  grid-column-end: 7;
+  grid-row-start: 1;
+  grid-row-end: 1;
+
+}
+
+/* #botonRide p{
+} */
+#botonRide:hover {
+  background-image: url(/img/Bateria/plato\ color.png);
+  transform: scale(1.03);
+}
+
+
+
+
+
+#botonSnare {
+  background-image: url(/img/Bateria/bateria\ 1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 100px;
+  grid-column-start: 3;
+  grid-column-end: 4;
+  grid-row-start: 2;
+  grid-row-end: 2;
+
+}
+
+#botonSnare:hover {
+  background-image: url(/img/Bateria/bateria\ 1\ color.png);
+  transform: scale(1.03);
+}
+
+#botonTom-high {
+  background-image: url(/img/Bateria/bateria\ 1.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  width: 100px;
+  grid-column-start: 6;
+  grid-column-end: 7;
+  grid-row-start: 2;
+  grid-row-end: 2;
+}
+
+#botonTom-high:hover {
+  background-image: url(/img/Bateria/bateria\ 1\ color.png);
+  transform: scale(1.03);
+}
+
+
+
+
+#botonTom-low {
+  background-image: url(/img/Bateria/bateria\ 2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  margin: 0px 30px 0px;
+  height: 200px;
+  grid-column-start: 7;
+  grid-column-end: 6;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+
+#botonTom-low:hover {
+  background-image: url(/img/Bateria/bateria\ 2\ color.png);
+  transform: scale(1.03);
+}
+
+#botonTom-mid {
+  background-image: url(/img/Bateria/bateria\ 2.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  height: 200px;
+  margin: 0px 30px 0px;
+  grid-column-start: 3;
+  grid-column-end: 2;
+  grid-row-start: 3;
+  grid-row-end: 4;
+}
+
+#botonTom-mid:hover {
+  background-image: url(/img/Bateria/bateria\ 2\ color.png);
+  transform: scale(1.03);
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px;
+  grid-template-rows: 100px 100px 100px 100px ;
+}
 /* Fotter */
 
 .footer {
@@ -316,5 +514,4 @@ nav ul li a {
   background-repeat: no-repeat;
   background-size: contain;
 }
-
 /* ===================================================================== */
