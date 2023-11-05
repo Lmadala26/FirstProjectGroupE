@@ -170,11 +170,11 @@ nav ul li a {
 /* tamaño de los botones y su hover */
 .center {
   border-style: none;
-    width: 150px;
-    height: 100px;
-    font-size: xx-large;
-    background-color: transparent;
-    color: #fff;
+  width: 150px;
+  height: 100px;
+  font-size: xx-large;
+  background-color: transparent;
+  color: #fff;
 }
 
 /* .center:hover {
@@ -184,7 +184,6 @@ nav ul li a {
   -webkit-box-shadow: -1px 1px 16px 2px rgb(41, 162, 255, 0.3);
   -moz-box-shadow: -1px 1px 16px 2px rgb(41, 162, 255, 0.3);
 } */
-
 
 /* tamaño y hover de los botones para cambiar imagen de fondo */
 #button-container {
@@ -311,8 +310,10 @@ nav ul li a {
   transform: scale(1.03);
 }
 
-
-
+.button-active {
+  transform: scale(1.03);
+  background-image: url(/img/Bateria/bateria\ 0\ color.png);
+}
 
 #botonHihat-close {
   background-image: url(/img/Bateria/plato.png);
@@ -333,11 +334,6 @@ nav ul li a {
   transform: scale(1.03);
 }
 
-
-
-
-
-
 #botonHihat-open {
   background-image: url(/img/Bateria/plato.png);
   background-repeat: no-repeat;
@@ -357,10 +353,6 @@ nav ul li a {
   transform: scale(1.03);
 }
 
-
-
-
-
 #botonKick {
   background-image: url(/img/Bateria/bateria\ 0.png);
   background-repeat: no-repeat;
@@ -378,14 +370,10 @@ nav ul li a {
   background-image: url(/img/Bateria/bateria\ 0\ color.png);
   transform: scale(1.03);
 }
-.claseNueva{
-    background-image: url(/img/Bateria/bateria\ 2\ color.png);
-      transform: scale(1.03);
+.claseNueva {
+  background-image: url(/img/Bateria/bateria\ 2\ color.png);
+  transform: scale(1.03);
 }
-
-
-
-
 
 #botonRide {
   background-image: url(/img/Bateria/plato.png);
@@ -399,7 +387,6 @@ nav ul li a {
   grid-column-end: 7;
   grid-row-start: 1;
   grid-row-end: 1;
-
 }
 
 /* #botonRide p{
@@ -408,10 +395,6 @@ nav ul li a {
   background-image: url(/img/Bateria/plato\ color.png);
   transform: scale(1.03);
 }
-
-
-
-
 
 #botonSnare {
   background-image: url(/img/Bateria/bateria\ 1.png);
@@ -423,7 +406,6 @@ nav ul li a {
   grid-column-end: 4;
   grid-row-start: 2;
   grid-row-end: 2;
-
 }
 
 #botonSnare:hover {
@@ -447,9 +429,6 @@ nav ul li a {
   background-image: url(/img/Bateria/bateria\ 1\ color.png);
   transform: scale(1.03);
 }
-
-
-
 
 #botonTom-low {
   background-image: url(/img/Bateria/bateria\ 2.png);
@@ -490,7 +469,7 @@ nav ul li a {
 .container {
   display: grid;
   grid-template-columns: 100px 100px 100px 100px 100px 100px 100px 100px;
-  grid-template-rows: 100px 100px 100px 100px ;
+  grid-template-rows: 100px 100px 100px 100px;
 }
 /* Fotter */
 
