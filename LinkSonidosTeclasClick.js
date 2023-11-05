@@ -126,9 +126,11 @@ function playSound(event) {
       audio1.currentTime = 0;
       setTimeout(() => {
         audio1.play();
-        document.getElementById("botonCrash").classList.add("red-button");
+        document.getElementById("botonCrash").classList.add("button-active");
         setTimeout(() => {
-          document.getElementById("botonCrash").classList.remove("red-button");
+          document
+            .getElementById("botonCrash")
+            .classList.remove("button-active");
         }, 200);
       }, 140);
       break;
@@ -136,11 +138,13 @@ function playSound(event) {
       audio2.currentTime = 0;
       setTimeout(() => {
         audio2.play();
-        document.getElementById("botonHihat-close").classList.add("red-button");
+        document
+          .getElementById("botonHihat-close")
+          .classList.add("button-active");
         setTimeout(() => {
           document
             .getElementById("botonHihat-close")
-            .classList.remove("red-button");
+            .classList.remove("button-active");
         }, 200);
       }, 140);
       break;
@@ -148,11 +152,13 @@ function playSound(event) {
       audio3.currentTime = 0;
       setTimeout(() => {
         audio3.play();
-        document.getElementById("botonHihat-open").classList.add("red-button");
+        document
+          .getElementById("botonHihat-open")
+          .classList.add("button-active");
         setTimeout(() => {
           document
             .getElementById("botonHihat-open")
-            .classList.remove("red-button");
+            .classList.remove("button-active");
         }, 200);
       }, 140);
       break;
@@ -160,9 +166,11 @@ function playSound(event) {
       audio4.currentTime = 0;
       setTimeout(() => {
         audio4.play();
-        document.getElementById("botonKick").classList.add("red-button");
+        document.getElementById("botonKick").classList.add("button-active");
         setTimeout(() => {
-          document.getElementById("botonKick").classList.remove("red-button");
+          document
+            .getElementById("botonKick")
+            .classList.remove("button-active");
         }, 200);
       }, 140);
       break;
@@ -170,9 +178,11 @@ function playSound(event) {
       audio5.currentTime = 0;
       setTimeout(() => {
         audio5.play();
-        document.getElementById("botonRide").classList.add("red-button");
+        document.getElementById("botonRide").classList.add("button-active");
         setTimeout(() => {
-          document.getElementById("botonRide").classList.remove("red-button");
+          document
+            .getElementById("botonRide")
+            .classList.remove("button-active");
         }, 200);
       }, 140);
       break;
@@ -180,9 +190,11 @@ function playSound(event) {
       audio6.currentTime = 0;
       setTimeout(() => {
         audio6.play();
-        document.getElementById("botonSnare").classList.add("red-button");
+        document.getElementById("botonSnare").classList.add("button-active");
         setTimeout(() => {
-          document.getElementById("botonSnare").classList.remove("red-button");
+          document
+            .getElementById("botonSnare")
+            .classList.remove("button-active");
         }, 200);
       }, 140);
       break;
@@ -190,11 +202,11 @@ function playSound(event) {
       audio7.currentTime = 0;
       setTimeout(() => {
         audio7.play();
-        document.getElementById("botonTom-high").classList.add("red-button");
+        document.getElementById("botonTom-high").classList.add("button-active");
         setTimeout(() => {
           document
             .getElementById("botonTom-high")
-            .classList.remove("red-button");
+            .classList.remove("button-active");
         }, 200);
       }, 140);
       break;
@@ -202,11 +214,11 @@ function playSound(event) {
       audio8.currentTime = 0;
       setTimeout(() => {
         audio8.play();
-        document.getElementById("botonTom-low").classList.add("red-button");
+        document.getElementById("botonTom-low").classList.add("button-active");
         setTimeout(() => {
           document
             .getElementById("botonTom-low")
-            .classList.remove("red-button");
+            .classList.remove("button-active");
         }, 200);
       }, 140);
       break;
@@ -214,11 +226,11 @@ function playSound(event) {
       audio9.currentTime = 0;
       setTimeout(() => {
         audio9.play();
-        document.getElementById("botonTom-mid").classList.add("claseNueva");
+        document.getElementById("botonTom-mid").classList.add("button-active");
         setTimeout(() => {
           document
             .getElementById("botonTom-mid")
-            .classList.remove("claseNueva");
+            .classList.remove("button-active");
         }, 200);
       }, 140);
       break;
