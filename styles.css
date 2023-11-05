@@ -293,3 +293,28 @@ nav ul li a {
 }
 
 /* ====================================================================  */
+
+/* Fotter */
+
+.footer {
+  color: #2a324b;
+  position: absolute;
+  right: 80px;
+  bottom: 25px;
+  z-index: 1;
+}
+
+#minilogo {
+  background-color: none;
+  background-image: url(/img/logo_footer.svg);
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  right: 30px;
+  bottom: 17px;
+  z-index: 1;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+/* ===================================================================== */
